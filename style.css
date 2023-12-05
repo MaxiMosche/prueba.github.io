@@ -1,0 +1,33 @@
+:root{
+    --fondo-color:#181818;
+    --items-color:#202020;
+    --border-color:#383838;
+    --text-color:#e7e7e7;
+    --scroll-color:#909090;
+    --background-hover: #303030;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: var(--fondo-color)!important;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+}
+.table-container-perfil{
+    position: relative;
+    color: var(--text-color);
+    left: 20px;
+  }
+  
+  .table-container-perfil tr,td {
+    font-size: 20px !important;
+  }
+
+  .table-perfil th,td{
+    padding: 4px!important;
+    text-align: left!important;
+    border-left: 1px solid var(--border-color)!important;
+    border-bottom: 1px solid var(--border-color)!important;
+  }
